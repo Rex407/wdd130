@@ -348,4 +348,15 @@ img {
     height: 100px; /* Set the desired height */
     object-fit: cover; /* Adjust how the image fits its dimensions */
   }
+
+  img {
+    max-width: 100%; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .element {
+    background-image: url('path/to/image.jpg');
+    background-size: cover; /* Adjusts how the background image covers its container */
+  }
+  
   
