@@ -332,31 +332,4 @@ button {
     /* make this element invisible until we are ready for it */
     display: none;
 }
-
-img {
-    width: 200px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  img {
-    width: 50%; /* Set the width as a percentage of the parent element */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  img {
-    width: 150px; /* Set the desired width */
-    height: 100px; /* Set the desired height */
-    object-fit: cover; /* Adjust how the image fits its dimensions */
-  }
-
-  img {
-    max-width: 100%; /* Set the maximum width */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  .element {
-    background-image: url('path/to/image.jpg');
-    background-size: cover; /* Adjusts how the background image covers its container */
-  }
-  
   
