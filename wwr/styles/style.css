@@ -20,6 +20,7 @@ footer p {
 }
 
 h1 {
+    background-color: #8d4040;
     margin: 50px 0;
 }
 
@@ -34,7 +35,7 @@ h1 {
 }
 
 body {
-    background-color: #e0e0e0;
+    background-color: #ffffff;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
