@@ -298,7 +298,7 @@ textarea {
 input:focus,
 textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #000;
+    border-color: #8d4040;
 }
 
 textarea {
