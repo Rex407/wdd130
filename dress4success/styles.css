@@ -70,3 +70,15 @@ header{
     background: #fff;
     color: #333;
 }
+.logo {
+    width: 100px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+.logo {
+    width: 50%; /* Adjust percentage for size */
+    height: auto; /* Maintain aspect ratio */
+}
+.logo {
+    max-width: 150px; /* Set maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
