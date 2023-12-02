@@ -311,3 +311,34 @@ h1 {
         display: block;
         height: auto;
     }
+    /* CSS for Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333; /* Background color for the navigation bar */
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+  }
+  /* Flexbox and Grid Layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Distributes items along the main axis */
+    align-items: center; /* Aligns items along the cross axis */
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Creates a 3-column grid layout */
+    grid-gap: 20px; /* Sets 20px gap between grid items */
+  }
+  
