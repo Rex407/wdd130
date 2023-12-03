@@ -4,7 +4,7 @@ h1{
 
 header{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("img/mekha.jpg");
-    height: 100vh;
+    height: 150vh;
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
