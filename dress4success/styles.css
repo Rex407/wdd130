@@ -4,7 +4,7 @@ h1{
 
 header{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("img/mekha.jpg");
-    height: 150vh;
+    height: 170vh;
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
@@ -248,13 +248,13 @@ button {
   }
   
   .large-image {
-    width: 300px; /* Set your preferred width */
+    width: 200px; /* Set your preferred width */
     height: auto; /* Maintain aspect ratio */
     /* Additional styling as needed */
   }
   /* CSS to change the size of the image */
 .small-image {
-    width: 200px; /* Set your preferred width */
+    width: 100px; /* Set your preferred width */
     height: auto; /* Maintain aspect ratio */
     /* Additional styling as needed */
   }
@@ -341,4 +341,63 @@ nav ul {
     grid-template-columns: 1fr 1fr 1fr; /* Creates a 3-column grid layout */
     grid-gap: 20px; /* Sets 20px gap between grid items */
   }
+  /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
+  }
+  
+  .name {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .position {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .description {
+    margin: 10px 0;
+    color: #777;
+  }
+  
+  .contact {
+    margin-top: 20px;
+  }
+  
+  .contact a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+  }
+  
   
